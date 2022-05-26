@@ -466,11 +466,11 @@ button:focus,
  *-----------------------------------------------*/
 
 .team .thumbnail {
-    padding          : 0;
+    padding          : 0px 0px 0px 0px;
     line-height      : 22px;
     background-color : transparent;
     border           : 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     }
 
 @media (max-width : 767px) {
@@ -484,7 +484,7 @@ button:focus,
     }
 
 .team .thumbnail .caption {
-    padding          : 10px;
+    padding          : 0px;
     }
 
 .team .thumbnail h3 {
@@ -507,10 +507,13 @@ button:focus,
 
 	.team .thumbnail p {
 	text-align: justify;	
-	padding       : 5px 15px 15px;
-    margin         : 20px 0px 0px 20px;
-    font-size      : 15px;    
-	line-height : 1.2;
+	padding       : 0px 0px 0px 0px;
+    margin         : 0px 0px 0px 0px;
+    font-size      : 14px;    
+	line-height : 1.4;
+	hyphens: auto;
+	word-break: break-word;
+	word-wrap: break-word;
     }
 
 .team .social-links li {
